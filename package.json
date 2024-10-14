@@ -1,8 +1,6 @@
 {
   "name": "myapp",
   "version": "0.1.0",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "private": true,
   "homepage": "https://raj-neelam.github.io/react_learn",
   "dependencies": {
@@ -18,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
